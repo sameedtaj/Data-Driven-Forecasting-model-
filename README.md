@@ -10,9 +10,7 @@ Finance and BI teams need the month-end number before the month ends: for target
 ![pandas](https://img.shields.io/badge/pandas-150458?logo=pandas&logoColor=white)
 ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?logo=streamlit&logoColor=white)
 
-<p align="center">
-  <img src="assets/app.png" alt="Month-close forecasting app" width="900"/>
-</p>
+![Month-close forecasting app](assets/app.png)
 
 ## ✨ Highlights
 
@@ -26,16 +24,15 @@ Finance and BI teams need the month-end number before the month ends: for target
 
 ## 📸 Screenshots
 
-<table>
-  <tr>
-    <td align="center"><b>Actual data — month to date</b></td>
-    <td align="center"><b>Forecast & projected month close</b></td>
-  </tr>
-  <tr>
-    <td><img src="assets/actual_data.png" alt="Actual data" width="440"/></td>
-    <td><img src="assets/forecast_month_close.png" alt="Forecast and month close" width="440"/></td>
-  </tr>
-</table>
+### 1. Actual data — month to date
+Daily transactions, volume, successful volume, customers and success rate loaded from the input file.
+
+![Actual data](assets/actual_data.png)
+
+### 2. Forecast & projected month close
+Day-by-day forecast for the rest of the month, plus the projected month-end totals.
+
+![Forecast and projected month close](assets/forecast_month_close.png)
 
 ---
 
