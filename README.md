@@ -10,6 +10,33 @@ Finance and BI teams need the month-end number before the month ends: for target
 ![pandas](https://img.shields.io/badge/pandas-150458?logo=pandas&logoColor=white)
 ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?logo=streamlit&logoColor=white)
 
+<p align="center">
+  <img src="assets/app.png" alt="Month-close forecasting app" width="900"/>
+</p>
+
+## ✨ Highlights
+
+- 🔮 **Forecasts every remaining day** of the month for 4 KPIs: transactions, volume, customers, success rate
+- 📊 **Projects the month-end close** while the month is still running
+- 🧠 **LightGBM / XGBoost / scikit-learn** with automatic engine fallback
+- 🛡️ **Stable forecasts:** baseline blending and range clipping stop errors from compounding
+- 📁 **Excel in, Excel out:** upload the daily export, get a formatted multi-sheet report
+
+---
+
+## 📸 Screenshots
+
+<table>
+  <tr>
+    <td align="center"><b>Actual data — month to date</b></td>
+    <td align="center"><b>Forecast & projected month close</b></td>
+  </tr>
+  <tr>
+    <td><img src="assets/actual_data.png" alt="Actual data" width="440"/></td>
+    <td><img src="assets/forecast_month_close.png" alt="Forecast and month close" width="440"/></td>
+  </tr>
+</table>
+
 ---
 
 ## How it works
@@ -85,6 +112,7 @@ python main.py
 ## Repository
 
 ```
+├── assets/             # screenshots used in this README
 ├── main.py             # full pipeline: load → features → models → forecast → Excel
 ├── requirements.txt    # pip dependencies
 └── environment.yml     # conda environment
